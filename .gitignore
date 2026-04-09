@@ -1,1 +1,16 @@
+# 过滤所有的可执行文件 (Windows)
+*.exe
 
+# 过滤所有的对象文件
+*.o
+*.obj
+
+# 过滤 VS Code 的本地配置文件夹
+.vscode/
+
+# 过滤编译输出的调试文件
+*.pdb
+*.ilk
+
+# 过滤 mac 系统的残留
+.DS_Store
